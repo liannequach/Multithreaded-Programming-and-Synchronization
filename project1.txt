@@ -1,0 +1,15 @@
+Part1- NoSync:
+gcc -o project1 project1.c -lpthread
+./project1 1
+./project1 2
+./project1 3
+./project1 4
+./project1 5
+
+Part2- Sync:
+gcc -o project1b project1b.c -lpthread
+./project1b 1
+./project1b 2
+./project1b 3
+./project1b 4
+./project1b 5
